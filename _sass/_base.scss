@@ -113,6 +113,7 @@ aside {
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
             color: rgba(white, .7);
+	    background-color: black;
             &:hover,
             &:focus {
                 color: white;
@@ -155,7 +156,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/header.png');
     text-align: center;
     color: white;
     .header-content {
@@ -169,6 +170,7 @@ header {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
+		background-color: #000;
             }
             hr {
                 margin: 30px auto;
@@ -178,6 +180,7 @@ header {
                 color: rgba(white, .7);
                 font-size: 16px;
                 margin-bottom: 50px;
+		background-color: #000;
             }
         }
     }

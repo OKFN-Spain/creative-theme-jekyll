@@ -3526,6 +3526,7 @@ tbody.collapse.in {
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
+    background-color: black;
   }
   .navbar-right .dropdown-menu-left {
     right: auto;
@@ -3862,16 +3863,18 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
+  background-color: black;
 }
 .nav > li > a {
   position: relative;
   display: block;
   padding: 10px 15px;
+  background-color: black;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  background-color: black;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -3881,7 +3884,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
   text-decoration: none;
   cursor: not-allowed;
-  background-color: transparent;
+
 }
 .nav .open > a,
 .nav .open > a:hover,
@@ -4373,6 +4376,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-right {
     float: right !important;
     margin-right: -15px;
+    background-color: black !important;
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
@@ -4394,7 +4398,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+    color: #777;
+    background-color: black;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {

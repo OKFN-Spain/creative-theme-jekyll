@@ -1,14 +1,15 @@
-# Creative Theme for Jekyll
+# Tema Creative para Jekyll utilizado para madrid.opendataday.org
 
-A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
+Una implementación para Jekyll del tema de [Creative Theme](http://startbootstrap.com/template-overviews/creative/) con plantilla de [Start Bootstrap](http://startbootstrap.com).
 
-Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
-The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
+*Creative* es un tema base para realizar proyectos de diversos tipos. Incluye muchas posibilidades y plugins de tal manera que puedes utilizarlo como un buen recurso para proyectos que quieran usar *Jekyll*
 
-See it live in action at <https://volny.github.io/creative-theme-jekyll/>
+El original lo puedes ver en acción en <https://volny.github.io/creative-theme-jekyll/>
 
-## To use the Creative Theme template in your project
+## Adaptación OKFNes
 
-- Start by adding your info in `_config.yml`
-- In `_layouts/front.html` reorder or remove section as you prefer.
+- Hemos *forkeado* el tema en nuestra cuenta de *GitHub*.
+- Luego lo clonamos con `git clone URL` en tu espacio de trabajo.
+- Editamos `_config.yml` para la configuración del sitio.
+- En `_layouts/front.html` está el *html* que hemos de tocar para reorganizar las secciones que contiene la web a través del directorio `includes`, para borrar las que existen o para crear nuevas.
 
